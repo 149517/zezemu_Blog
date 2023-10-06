@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+        "name":"图书管理系统",
+        "pic":"http://www.zezemu.top:3000/images/library-01.png",
+        "platform":"Django + Vue.js + Mysql",
+        "intro":"包含了图书的录入和查看，图书系统的增删改查"
+    },
+    {
+        "id":2,
+        "name":"个人网站-PC-旧",
+        "pic":"http://www.zezemu.top:3000/images/blog-01.png",
+        "platform":"Express + Vue.js",
+        "intro":"实现了网站的访问，包含一些代码的下载"
+    },
+    {
+        "id":3,
+        "name":"网易云音乐简",
+        "pic":"http://www.zezemu.top:3000/images/music-01.png",
+        "platform":"uniapp",
+        "intro":"通过API访问，实现页面内容的展示，音乐的播放效果等"
+    },
+    {
+        "id":4,
+        "name":"校园网站",
+        "pic":"http://www.zezemu.top:3000/images/forum-04.png",
+        "platform":"Express + Vue.js + MongoDB",
+        "intro":"实现页面内容展示，商品购买等功能"
+    }
+
+]

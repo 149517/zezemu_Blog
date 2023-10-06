@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            /* background: #050801; */
+            background: #2c3e50;
+        }
+
+        a {
+            display: block;
+            width: 200px;
+            height: 60px;
+            /* border: rgb(29, 111, 251) 1px solid; */
+            /* background-color: #f4ff1a; */
+
+            text-align: center;
+            line-height: 60px;
+
+            /* 自适应居中 */
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            margin: auto;
+
+            color: aqua;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            overflow: hidden;
+        }
+
+        a span {
+            position: absolute;
+            display: block;
+            height: 5px;
+            width: 100%;
+            background-color: rgb(68, 222, 139);
+        }
+
+        span:nth-child(1) {
+            background: linear-gradient(90deg, transparent, #ff4242);
+            top: 0;
+            left: -200px;
+            /* 动画 */
+            animation: transverse 2s ease infinite;
+        }
+
+        span:nth-child(2) {
+            width: 5px;
+            height: 100%;
+            background: linear-gradient(180deg, transparent, #ff1fbf);
+            top: -60px;
+            left: 195px;
+            animation: vertical 2s ease infinite;
+            animation-delay: 0.5s;
+        }
+
+        span:nth-child(3) {
+            background: linear-gradient(270deg, transparent, #f4ff1a);
+            bottom: 0px;
+            right: -200px;
+            animation: transverse2 2s ease infinite;
+            animation-delay: 1s;
+
+        }
+
+        span:nth-child(4) {
+            width: 5px;
+            height: 100%;
+            background: linear-gradient(0deg, transparent, #1aff4c);
+            bottom: -60px;
+            right: 195px;
+            animation: vertical2 2s ease infinite;
+     
+            animation-delay: 1.5s;
+        }
+
+        a:hover {
+            /* 鼠标移动到元素上高亮，并且有阴影效果 */
+            background: #03e9f4;
+            color: #050801;
+            box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 200px #03e9f4;
+
+        }
+
+        a:hover span {
+            /* 鼠标移动到元素上时，动画暂停且隐藏 */
+            animation-play-state: paused;
+            display: none;
+        }
+
+        @keyframes transverse {
+            0% {
+                left: -200px;
+            }
+
+            50%,
+            100% {
+                left: 200px;
+            }
+        }
+        @keyframes transverse2 {
+            0% {
+                left: 200px;
+            }
+
+            50%,
+            100% {
+                left: -200px;
+            }
+        }
+
+        @keyframes vertical {
+            0% {
+                top: -60px;
+            }
+
+            50%,
+            100% {
+                top: 60px;
+            }
+        }
+        @keyframes vertical2 {
+            0% {
+                top: 60px;
+            }
+
+            50%,
+            100% {
+                top: -60px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        BUTTON
+    </a>
+
+</body>
+
+</html>

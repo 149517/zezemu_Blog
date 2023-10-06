@@ -1,0 +1,58 @@
+[
+    {
+      "id":1,
+      "name": "百叶窗",
+      "path": "http://www.zezemu.top:3000/images/window-shades.webp",
+      "illustrate":"图片使用服务器上传，自己修改将背景图片处的url地址改为本地路径或者自己的图片地址",
+      "url": "http://www.zezemu.top:3000/api/download/window-shades.html"
+    },
+    {
+      "id":2,
+      "name": "流光按钮",
+      "path": "http://www.zezemu.top:3000/images/Illuminated-button.webp",
+      "illustrate":"",
+      "url": "http://www.zezemu.top:3000/api/download/Illuminated-button.html"
+    },
+    {
+      "id":3,
+      "name": "3D旋转相册",
+      "path": "http://www.zezemu.top:3000/images/3d-rotation.webp",
+      "illustrate":"图片使用服务器上传，自己修改将背景图片处的url地址改为本地路径或者自己的图片地址",
+      "url": "http://www.zezemu.top:3000/api/download/3d-rotation.html"
+    },
+    {
+      "id":4,
+      "name": "导航栏动画",
+      "path": "http://www.zezemu.top:3000/images/nav.webp",
+      "illustrate":"",
+      "url": "http://www.zezemu.top:3000/api/download/nav.html"
+    },
+    {
+      "id":5,
+      "name": "页面平滑切换",
+      "path": "http://www.zezemu.top:3000/images/Smooth-switching.webp",
+      "illustrate":"",
+      "url": "http://www.zezemu.top:3000/api/download/Smooth-switching.html"
+    },
+     {
+      "id":6,
+      "name": "聚光灯动画",
+      "path": "http://www.zezemu.top:3000/images/Spotlight.webp",
+      "illustrate":"",
+      "url": "http://www.zezemu.top:3000/api/download/Spotlight.html"
+    },
+      {
+      "id":7,
+        "name": "侧边栏弹出",
+      "path": "http://www.zezemu.top:3000/images/sidebar.webp",
+      "illustrate":"",
+      "url": "http://www.zezemu.top:3000/api/download/sidebar.html"
+    },
+    {
+      "id":8,
+      "name": "波浪效果",
+      "path": "http://www.zezemu.top:3000/images/wave.webp",
+      "illustrate":"",
+      "url": "http://www.zezemu.top:3000/api/download/wave.html"
+    }
+  ]

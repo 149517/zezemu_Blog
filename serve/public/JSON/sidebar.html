@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        window.onload = function () {
+
+            // 事件监听和元素获取
+            let swi = document.querySelector('.switch');
+            swi.addEventListener("click", function () {
+                Brief_hidden();
+            })
+
+            let flag = true;
+            function Brief_hidden() {
+                let box = document.querySelector('.block');
+
+                let text = document.querySelector('.text');
+
+                if (this.flag) {
+                    box.classList.add('hidden')
+                    swi.classList.add('switch_rotate')
+                    text.classList.add('text_hidden')
+                    this.flag = false
+                } else {
+                    box.classList.remove("hidden");
+                    swi.classList.remove('switch_rotate')
+                    text.classList.remove('text_hidden')
+                    this.flag = true
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .block {
+            position: fixed;
+            top: 200px;
+            left: 0;
+            height: 200px;
+            width: 200px;
+            padding: 10px;
+            background-color: #e6e6e6;
+            border-radius: 50% 50% 10px 50%;
+            transition: all .5s linear;
+        }
+
+        .hidden {
+            left: -213px;
+            transform: rotateZ(-45deg);
+        }
+
+        .img {
+            width: 200px;
+            height: 200px;
+            background: url("./portrait.jpg") no-repeat;
+            background-position: -95px 1px;
+            border-radius: 50%;
+        }
+
+        .switch {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 0;
+            height: 0;
+            border: 15px solid transparent;
+            border-bottom-color: #535bf2;
+            transform: rotateZ(-45deg);
+        }
+
+        .switch_rotate {
+            bottom: -4px;
+            right: -4px;
+            transform: rotateZ(135deg);
+        }
+
+        .text {
+            position: fixed;
+            top: 425px;
+            left: 54px;
+            font-size: 20px;
+            color: white;
+            transition: all .5s linear;
+        }
+
+        .text_hidden {
+            left: -200px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="block">
+        <div class="img"></div>
+        <div class="switch play">
+
+        </div>
+    </div>
+    <div class="text">
+        <p>昵称：泽泽木</p>
+        <p>生日：5月17日</p>
+        <p>职业：学生</p>
+    </div>
+</body>
+
+</html>

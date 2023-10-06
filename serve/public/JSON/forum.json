@@ -1,0 +1,21 @@
+{
+    "id": 4,
+    "name": "校园网站",
+    "platform": "Express + Vue.js + Vite + MongoDB",
+    "intro": "通过自己搭建后端程序，通过Node.js 访问数据库Mongodb数据库，前端通过请求获取对应的数据和内容。由于最初未考虑到不同用户登录情况的实现，所有在开始的时候仅仅是创建了用户的数据，根据用户访问对应的帖子，购买等。在网页中修改信息同时反馈到数据库进行修改。实现记录的存储等。",
+    "direction":"vertical",
+    "pic": [
+        "http://www.zezemu.top:3000/images/forum-01.png",
+        "http://www.zezemu.top:3000/images/forum-02.png",
+        "http://www.zezemu.top:3000/images/forum-03.png",
+        "http://www.zezemu.top:3000/images/forum-04.png",
+        "http://www.zezemu.top:3000/images/forum-05.png",
+        "http://www.zezemu.top:3000/images/forum-06.png",
+        "http://www.zezemu.top:3000/images/forum-07.png",
+        "http://www.zezemu.top:3000/images/forum-08.png",
+        "http://www.zezemu.top:3000/images/forum-09.png",
+        "http://www.zezemu.top:3000/images/forum-10.png",
+        "http://www.zezemu.top:3000/images/forum-11.png"
+    ],
+    "github": "null"
+}

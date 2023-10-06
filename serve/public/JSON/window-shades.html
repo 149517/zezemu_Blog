@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo</title>
+    <style>
+        .container {
+            width: 1400px;
+            height: 600px;
+            margin: 100px auto;
+
+            /*使用flex布局，使其所有的 .img 子元素都在一行显示*/
+            display: flex;
+        }
+        .img{
+            /*宽度改小，使其显示的时候不直接显示全图*/
+            width: 120px;
+            height: 676px;
+
+            /*边框圆角效果*/
+            border-radius: 20px;
+            margin: 5px;
+
+            /*过渡效果, 使图片变大变小时候变得平滑*/
+            transition: all .3s linear;
+
+
+        }
+        /*选择器,选择.img所在的父元素下的第一个子元素*/
+        .img:nth-child(1){
+            /*为每个盒子添加背景图片和背景图片定位*/
+            /*这里采用了复合写法，分别为background-image和background-position*/
+            /* background: url("img/img (1).jpg") center; */
+            background: url("http://www.zezemu.top:3000/images/rorate (2).jpg") center;
+        }
+        .img:nth-child(2){
+            background: url("http://www.zezemu.top:3000/images/rorate (3).jpg") center;
+        }
+        .img:nth-child(3){
+            background: url("http://www.zezemu.top:3000/images/rorate (4).jpg") center;
+        }
+        .img:nth-child(4){
+            background: url("http://www.zezemu.top:3000/images/rorate (7).jpg") center;
+        }
+        .img:nth-child(5){
+            background: url("http://www.zezemu.top:3000/images/rorate (6).jpg") center;
+        }
+        .img:hover{
+            /*鼠标经过时候，背景的宽度改变*/
+            width: 1202px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+<!--    放置图片的盒子-->
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+    <div class="img"></div>
+
+</div>
+</body>
+</html>

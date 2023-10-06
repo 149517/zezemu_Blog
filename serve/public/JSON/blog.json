@@ -1,0 +1,14 @@
+{
+    "id":2,
+    "name":"个人网站-PC-旧",
+    "platform":"Vue.js + Express + Nginx",
+    "intro":"网站主要通过Vue.js实现前端界面，在手机端的界面是通过Uniapp来实现。通过Express作为服务器分发路由和一些静态资源。在网站中，包含了我在小红书制作的一些代码的下载，同时也提供了演示代码中的一些图片数据。通过在服务器上使用Nginx，实现设备自动识别，如果是PC端/Ipad会响应PC端界面，手机端会响应对应的手机端界面。",
+    "direction":"transverse",
+    "pic":[
+        "http://www.zezemu.top:3000/images/blog-01.png",
+        "http://www.zezemu.top:3000/images/blog-02.png",
+        "http://www.zezemu.top:3000/images/blog-03.png",
+        "http://www.zezemu.top:3000/images/blog-04.png"
+    ],
+    "github":"null"
+}

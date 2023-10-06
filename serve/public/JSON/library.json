@@ -1,0 +1,13 @@
+{
+    "id":1,
+    "name":"图书管理系统",
+    "platform":"Django + VUe.js + Vite + Vuex + ElementUI + Mysql",
+    "intro":"通过Python的网络框架Django，链接数据库，并在Django的用户模块的基础上创建用户，在前端进行登录注册的时候存储用户信息，并发送Token用于用户验证和登录。在网站使用中，需要再Django先行创建一个超级用户，因为在网站中增加了一些普通权限相关配置。比如：书籍信息的添加，图书信息的修改等操作。在网站中无法进行超级用户的注册，但是可以进行登录。普通用户只能浏览网站中的书籍及其信息，进行借阅。在前端中，使用全局状态关联Vuex管理全局的数据，比如说请求URL，页面转态，用户的Token等内容。在发送请求时候，会从全局中检索Token的内容，然后一起发送给后端，后端根据Token信息判断用户权限，返回对应的用户内容，如果不携带Token，说明用户没有进行登录，能够正常进入首页和书籍界面，但是在进入其他界面时候会跳转到登录。",
+    "direction":"transverse",
+    "pic":[
+        "http://www.zezemu.top:3000/images/library-01.png",
+        "http://www.zezemu.top:3000/images/library-02.png",
+        "http://www.zezemu.top:3000/images/library-03.png"
+    ],
+    "github":"null"
+}

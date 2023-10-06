@@ -1,0 +1,16 @@
+{
+    "id": 3,
+    "name": "网易云音乐-简",
+    "platform": "Uniapp + Vuex",
+    "intro": "在本地部署网易云音乐的API，调用接口实现网易云音乐内容的访问。根据参考示例复刻界面的实现，实现歌单内容获取，列表呈现，点击播放等功能。通过Vuex创建全局的音频实例，管理组件的显示。",
+    "direction":"vertical",
+    "pic": [
+        "http://www.zezemu.top:3000/images/music-01.png",
+        "http://www.zezemu.top:3000/images/music-02.png",
+        "http://www.zezemu.top:3000/images/music-03.png",
+        "http://www.zezemu.top:3000/images/music-04.png",
+        "http://www.zezemu.top:3000/images/music-05.png",
+        "http://www.zezemu.top:3000/images/music-06.png"
+    ],
+    "github": "null"
+}
